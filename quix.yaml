@@ -19,7 +19,7 @@ deployments:
         inputType: InputTopic
         description: This is the input topic for f1 data
         required: true
-        value: f1-data
+        value: hard-braking
       - name: output
         inputType: OutputTopic
         description: This is the output topic for hard braking events
