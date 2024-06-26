@@ -9,7 +9,7 @@ variables:
   - name: tewt
     inputType: InputTopic
     description: ''
-    defaultValue: hard-braking
+    defaultValue: hard-brakingghjghjghjghj
     required: true
 dockerfile: dockerfile
 runEntryPoint: main.py
