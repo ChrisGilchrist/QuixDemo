@@ -8,8 +8,8 @@ metadata:
 deployments:
   - name: demo-data-source
     application: demo-data-source
-    deploymentType: Service
     version: latest
+    deploymentType: Service
     resources:
       cpu: 200
       memory: 500
@@ -22,8 +22,8 @@ deployments:
         value: f1-data
   - name: event-detection-transformation
     application: event-detection-transformation
-    deploymentType: Service
     version: latest
+    deploymentType: Service
     resources:
       cpu: 200
       memory: 500
@@ -41,4 +41,5 @@ deployments:
         value: hard-braking
 
 # This section describes the Topics of the data pipeline
-topics: []
+topics:
+  - name: hard-braking
