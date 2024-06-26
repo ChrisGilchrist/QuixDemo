@@ -7,9 +7,9 @@ variables:
     defaultValue: f1-data
     required: true
   - name: tewt
-    inputType: FreeText
+    inputType: Secret
     description: ''
-    defaultValue: ''
+    defaultValue: j
     required: true
 dockerfile: dockerfile
 runEntryPoint: main.py
