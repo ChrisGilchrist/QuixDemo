@@ -33,6 +33,9 @@ deployments:
       cpu: 200
       memory: 500
       replicas: 1
+    publicAccess:
+      enabled: true
+      urlPrefix: demo-data-source-066189b
     variables:
       - name: output
         inputType: OutputTopic
