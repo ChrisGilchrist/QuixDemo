@@ -7,9 +7,9 @@ variables:
     defaultValue: f1-data
     required: true
   - name: tewt
-    inputType: InputTopic
+    inputType: FreeText
     description: ''
-    defaultValue: hard-brakingghjghjghjghj
+    defaultValue: ''
     required: true
 dockerfile: dockerfile
 runEntryPoint: main.py
