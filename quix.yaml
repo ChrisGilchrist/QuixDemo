@@ -41,7 +41,12 @@ deployments:
         inputType: OutputTopic
         description: Name of the output topic to write into
         required: true
-        value: f1-data
+        value: hard-brakingghjghjghjghj
+      - name: tewt
+        inputType: Secret
+        description: ''
+        required: true
+        secretKey: j
   - name: demo-data-source 2
     application: demo-data-source
     version: latest
