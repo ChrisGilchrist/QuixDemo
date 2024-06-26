@@ -43,3 +43,4 @@ deployments:
 # This section describes the Topics of the data pipeline
 topics:
   - name: hard-braking
+  - name: f1-data
