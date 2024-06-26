@@ -50,5 +50,5 @@ topics:
       partitions: 1
   - name: hard-braking
     configuration:
-      partitions: 1
+      partitions: 2
   - name: hard-brakingghjghjghjghj
